@@ -1,0 +1,54 @@
+@-webkit-keyframes "roll" {
+	0%   { 
+		opacity: 0;
+		
+	}
+	100% { 
+		opacity: 1;
+		-webkit-transform:rotate(90deg);
+		left:200px;
+	}
+}
+
+.heading-container.animate {
+	-webkit-animation-name: roll;
+	-moz-animation-name: roll;
+	-ms-animation-name: roll;
+	-o-animation-name: roll;
+	animation-name: roll;
+	-webkit-animation-duration: 5s;
+
+	-webkit-animation-timing-function: ease;
+	-moz-animation-timing-function: ease;
+	-ms-animation-timing-function: ease;
+	-o-animation-timing-function: ease;
+	animation-timing-function: ease;
+	
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-direction: normal;
+	-webkit-animation-play-state: running;
+
+
+
+}
+
+
+.initiator.animate {
+	-webkit-animation-name: roll;
+	-moz-animation-name: roll;
+	-ms-animation-name: roll;
+	-o-animation-name: roll;
+	animation-name: roll;
+	-webkit-animation-duration: 5s;
+
+	-webkit-animation-timing-function: ease;
+	-moz-animation-timing-function: ease;
+	-ms-animation-timing-function: ease;
+	-o-animation-timing-function: ease;
+	animation-timing-function: ease;
+	
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-direction: normal;
+	-webkit-animation-play-state: running;
+	-webkit-animation-fill-mode: forwards;
+}
